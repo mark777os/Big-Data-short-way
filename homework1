@@ -1,0 +1,25 @@
+public class squarrel {
+    public static void main(String args[]){
+        int i=0, j=0;
+        String k= "       ";
+        String m=" ";
+        int[] n1 = new int[9];
+        for(i=0;i<9;i++){
+            n1[i]=i+1;
+        }
+
+        for(j=1;j<10;j++){
+            System.out.println( k+n1[0]+" x "+ j+ "  =  "+ n1[0]* j+k+n1[1]+" x "+ j+ "  =  "+ n1[1]* j+k+n1[2]+" x "+
+                    j+ "  =  "+ n1[2]* j+k+m+m+m+n1[3]+" x "+ j+ "  =  "+ n1[3]* j+k+m+m+n1[4]+" x "+ j+ "  =  "+ n1[4]* j+k+m+m+m+m+m+n1[5]+" x "+
+                    j+ "  =  "+ n1[5]* j+k+m+m+m+m+m+n1[6]+" x "+ j+ "  =  "+ n1[6]* j+k+m+m+m+m+m+n1[7]+" x "+ j+ "  =  "+ n1[7]* j
+                    +k+m+m+m+m+m+m+n1[8]+" x "+ j+ "  =  "+ n1[8]* j);
+
+
+        }
+
+
+
+       
+
+    }
+}
